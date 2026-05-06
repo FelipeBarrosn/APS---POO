@@ -5,12 +5,14 @@ public class Racer {
     private Long racerId;
     private String racerName;
     private int age;
+    private String category;
 
 
-    public Racer(Long racerId, String racerName, int age) {
+    public Racer(Long racerId, String racerName, int age, String category) {
         this.racerId = racerId;
         this.racerName = racerName;
         this.age = age;
+        this.category = category;
     }
 
     public Long getRacerId() {

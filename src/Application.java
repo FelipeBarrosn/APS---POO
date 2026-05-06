@@ -85,7 +85,7 @@ public class Application {
                     System.out.print("Racer category: ");
                     String category = sc.nextLine();
 
-                    Racer racer = new Racer(racerId, racerName, age);
+                    Racer racer = new Racer(racerId, racerName, age, category);
 
                     eventController.addRacer(racer);
                     break;
