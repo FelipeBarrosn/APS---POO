@@ -39,7 +39,7 @@ public class Racer {
         this.age = age;
     }
 
-       public String getCategory() {
+    public String getCategory() {
         return category;
     }
 
